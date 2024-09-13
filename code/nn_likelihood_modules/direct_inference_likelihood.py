@@ -72,7 +72,7 @@ def likelihood_result_process(results, layerId, with_classId=True):
 
 def exec_likelihood(data_path, hist_prob_path, data_list_file_path, classId, layerId, display=False, with_classId=True, use_absolute_module_path=False):
     """
-    use_absolute_module_path: Use the absolute module path to access the likelihood distance calculation module from Ettore 
+    use_absolute_module_path: Use the absolute module path to access the likelihood distance calculation module
 
     Note: If you want to use the absolte path, please configure it in the file "constant.py"
     """
