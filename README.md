@@ -1,2 +1,38 @@
-# FAS
-Commit check
+To execute the "EFOMS" methodology, you must have the following software installed (the versions are the recommended ones):
+
+- Python 3.11.4
+- R 4.3.3
+- Jupyter Notebook 6.5.4
+- CUDA with cudnn (To support the corresponding pytorch platform), you should have an NVIDIA graphics card (e.g., CUDA 11.8 with NVIDIA GeForce RTX 4080 Laptop GPU).
+
+For the R, you must download the following libraries:
+- parallel
+- doParallel
+- foreach
+- gtools
+- boot
+- RANN
+- mvtnorm
+- sensitivity
+
+The required libraries for Python are listed in the file requirements.txt in the folder "code."
+
+It's crucial to complete the following steps before initiating the experiments:
+- Download the CIFAR-10-C dataset from https://zenodo.org/records/2535967#.XncuG5P7TUJ and extract it in the folder "src".
+- Download the "experim_models_resnet.zip," which contains the pre-trained ResNet models from https://zenodo.org/records/11496309, and extract it in the folder "src."
+- Download the "experim_resnet_attack.zip," which contains the adversarial attacks for the pre-trained models from https://zenodo.org/records/11496309, and extract it in the folder "src."
+
+For CIFAR-10-C, you should keep the folder structure with the repeated name after directly unzipping it (i.e., keep the structure as "src\\CIFAR-10-C\\CIFAR-10-C\\...").
+However, for the pre-trained models and their corresponding adversarial attacks, you should guarantee that there are no repeated names (i.e., "src\\experim_models_resnet\\..." and "src\\experim_resnet_attack\\...")
+
+To launch the experiment, you should:
+
+1. Go to the "src" folder and open a terminal.
+2. Type the command "jupyter notebook."
+3. Open the notebook "GFOOD_Framework_OOD_Detection".
+4. Configure the parameters required in the notebook (You can keep the default experiment in the notebook).
+5. Launch the notebook.
+
+All the output results will be saved in the folder "output" in the notebook's working directory.
+
+We additionally provide notebooks for the training and evaluation of different ResNet models.
