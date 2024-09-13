@@ -1,0 +1,39 @@
+#printOptions True
+printOptions False
+
+#opt_test True
+opt_test False
+#
+#opt_debug True
+opt_debug False
+#
+#opt_warnings True
+opt_warnings False
+#
+#opt_print_edge_freq True
+opt_print_edge_freq False
+#
+#opt_print_class_freq True
+opt_print_class_freq False
+#
+#opt_print_edge_prob True
+opt_print_edge_prob False
+#
+#opt_debug_read_histo_table True
+opt_debug_read_histo_table False
+#
+#opt_debug_single_class_likelihood True
+opt_debug_single_class_likelihood False
+#
+#opt_debug_process_entries True
+opt_debug_process_entries False
+#
+#opt_debug_process_profile True
+opt_debug_process_profile False
+#
+#opt_print_node_prob True
+opt_print_node_prob False
+#
+#opt_process_display True
+opt_process_display False
+
