@@ -2,6 +2,7 @@
 # EFOMS: Effective, Efficient, and Environmentally Friendly Out-of-Model-Scope Detection Methodology
 
 ## This repo contains:
+- The supplementary material document: [supplementary.pdf](supplementary_materials/FSE_supplementary_materials.pdf)
 
 ## Instruction for executing EFOMS methodology:
 ### prerequisite:
