@@ -7,7 +7,7 @@
 - The artifacts and results to reproduce our empirical evaluations: [evaluation](evaluation_results).
 
 ## Instruction for executing EFOMS methodology:
-### prerequisite:
+### Prerequisite:
 
 To execute the "EFOMS" methodology, you must have the following software installed (the versions are the recommended ones):
 
@@ -58,7 +58,7 @@ The evaluation results of all the executed experiments are presented in the fold
 
 ## Evaluation artifacts
 
-The evaluation results addressing our three research questions can be found in the [evaluation result] (evaluation_results) folder. The results are organized based on the dataset (CIFAR10 or Tiny_Imagenet) and the out-of-model-scope detection approach (CPND or KNN) used.
+The evaluation results addressing our three research questions can be found in the [evaluation](evaluation_results) folder. The results are organized based on the dataset (CIFAR10 or Tiny_Imagenet) and the out-of-model-scope detection approach (CPND or KNN) used.
 
 The evaluation folder follows this structure:
     - EFOMS_(Dataset name)_(Tested OMS detection method)
