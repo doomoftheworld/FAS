@@ -3,7 +3,7 @@
 
 ## This repo contains:
 - The supplementary material document: [supplementary.pdf](supplementary_materials/FSE_supplementary_materials.pdf)
-- EFOMS implementation: [code] (code/)
+- EFOMS implementation: [code] (code)
 
 ## Instruction for executing EFOMS methodology:
 ### prerequisite:
