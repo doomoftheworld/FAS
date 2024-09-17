@@ -39,3 +39,13 @@ To launch the experiment, you should:
 All the output results will be saved in the folder "output" in the notebook's working directory.
 
 We additionally provide notebooks for the training and evaluation of different ResNet models and the training of SwinTransformers.
+
+The evaluation results of all the executed experiments are presented in the folder "evaluation results," it has the following folder structure:
+
+- evaluation result
+    - EFOMS_(Dataset name)_(Tested OMS detection method)
+        - (One tested network architecture)
+            - (Folders containing the result figures combining the applications of the EFOMS methodology using Sobol index thresholds)
+            - (Folders containing the csv files and figures for the application of the EFOMS methodology using one specific Sobol index threshold)
+        - ...
+    - ...
