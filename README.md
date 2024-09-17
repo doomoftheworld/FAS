@@ -3,7 +3,7 @@
 
 ## This repo contains:
 
-# Instruction for executing EFOMS methodology:
+## Instruction for executing EFOMS methodology:
 ### prerequisite:
 
 To execute the "EFOMS" methodology, you must have the following software installed (the versions are the recommended ones):
@@ -25,6 +25,7 @@ For the R, you must download the following libraries:
 
 The required libraries for Python are listed in the file requirements.txt in the folder "code."
 
+### Training and testing datasets
 It's crucial to complete the following steps before initiating the experiments:
 - Download the CIFAR-10-C dataset from https://zenodo.org/records/2535967#.XncuG5P7TUJ and extract it in the folder "src".
 - Download the Tiny-Imagenet dataset from http://cs231n.stanford.edu/tiny-imagenet-200.zip and extract it in the folder "src".
@@ -52,7 +53,7 @@ We additionally provide notebooks for the training and evaluation of different R
 
 The evaluation results of all the executed experiments are presented in the folder "evaluation results," it has the following folder structure:
 
-### Evaluation artifacts
+## Evaluation artifacts
 
 - evaluation result
     - EFOMS_(Dataset name)_(Tested OMS detection method)
