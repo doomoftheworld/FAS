@@ -1,4 +1,4 @@
-# Supplementary material for: 
+# Supplementary materials for: 
 # EFOMS: Effective, Efficient, and Environmentally Friendly Out-of-Model-Scope Detection Methodology
 
 ## This repo contains:
@@ -29,10 +29,13 @@ For the R, you must download the following libraries:
 The required libraries for Python are listed in the file requirements.txt in the folder "code."
 
 ### Training and testing datasets
-It's crucial to complete the following steps before initiating the experiments:
+It is importnt to dowload the following datasets before initiating the experiments:
 - Download the CIFAR-10-C dataset from https://zenodo.org/records/2535967#.XncuG5P7TUJ and extract it in the folder "src".
 - Download the Tiny-Imagenet dataset from http://cs231n.stanford.edu/tiny-imagenet-200.zip and extract it in the folder "src".
 - Download the Tiny-Imagenet-C dataset from https://zenodo.org/records/2536630 and extract it in the folder "src".
+
+### Pretrained models
+It is also important to dowload the pretrained models to be able to launch the experiments:
 - Download the "experim_models_resnet.zip," which contains the pre-trained ResNet models from https://zenodo.org/records/13761609, and extract it in the folder "src."
 - Download the "experim_models_swin.zip," which contains the pre-trained SwinTransformer models from https://zenodo.org/records/13761240, and extract it in the folder "src."
 - Download the "experim_resnet_attack.zip," which contains the adversarial attacks for the pre-trained models from https://zenodo.org/records/13761609, and extract it in the folder "src."
