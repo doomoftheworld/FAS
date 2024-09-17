@@ -54,8 +54,6 @@ All the output results will be saved in the folder "output" in the notebook's wo
 
 We additionally provide notebooks for the training and evaluation of different ResNet models and the training of SwinTransformers.
 
-The evaluation results of all the executed experiments are presented in the folder "evaluation results," it has the following folder structure:
-
 ## Evaluation artifacts
 
 The evaluation results addressing our three research questions can be found in the [evaluation](evaluation_results) folder. The results are organized based on the dataset (CIFAR10 or Tiny_Imagenet) and the out-of-model-scope detection approach (CPND or KNN) used.
