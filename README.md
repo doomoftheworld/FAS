@@ -2,9 +2,9 @@
 # EFOMS: Effective, Efficient, and Environmentally Friendly Out-of-Model-Scope Detection Methodology
 
 ## This repo contains:
-- The supplementary material document: [supplementary.pdf](supplementary_materials/FSE_supplementary_materials.pdf)
+- The supplementary material document: [supplementary.pdf](supplementary_materials/FSE_supplementary_materials.pdf).
 - EFOMS implementation: Please refer to the [instructions](#instruction-for-executing-efoms-methodology)  for information on how to install it.
-- The artifacts and results to reproduce our empirical evaluations: [evaluation](evaluation_results)
+- The artifacts and results to reproduce our empirical evaluations: [evaluation](evaluation_results).
 
 ## Instruction for executing EFOMS methodology:
 ### prerequisite:
@@ -58,10 +58,12 @@ The evaluation results of all the executed experiments are presented in the fold
 
 ## Evaluation artifacts
 
-- evaluation result
+The evaluation results addressing our three research questions can be found in the [evaluation result] (evaluation_results) folder. The results are organized based on the dataset (CIFAR10 or Tiny_Imagenet) and the out-of-model-scope detection approach (CPND or KNN) used.
+
+The evaluation folder follows this structure:
     - EFOMS_(Dataset name)_(Tested OMS detection method)
-        - (One tested network architecture)
+        - (Tested network architecture)
             - (Folders containing the result figures combining the applications of the EFOMS methodology using Sobol index thresholds)
             - (Folders containing the csv files and figures for the application of the EFOMS methodology using one specific Sobol index threshold)
-        - ...
-    - ...
+       - (Another tested network architecture)
+            - Same structure as above
