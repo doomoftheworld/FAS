@@ -1,3 +1,11 @@
+# Supplementary material for: 
+# EFOMS: Effective, Efficient, and Environmentally Friendly Out-of-Model-Scope Detection Methodology
+
+## This repo contains:
+
+# Instruction for executing EFOMS methodology:
+### prerequisite:
+
 To execute the "EFOMS" methodology, you must have the following software installed (the versions are the recommended ones):
 
 - Python 3.11.4
@@ -28,6 +36,8 @@ It's crucial to complete the following steps before initiating the experiments:
 For CIFAR-10-C, you should keep the folder structure with the repeated name after directly unzipping it (i.e., keep the structure as "src\\CIFAR-10-C\\CIFAR-10-C\\...").
 However, for Tiny-Imagenet, Tiny-Imagenet-C, the pre-trained models and their corresponding adversarial attacks, you should guarantee that there are no repeated names (e.g., "src\\experim_models_resnet\\...", "src\\experim_models_swin\\..." and "src\\experim_resnet_attack\\...")
 
+### Launch EFOMS
+
 To launch the experiment, you should:
 
 1. Go to the "src" folder and open a terminal.
@@ -41,6 +51,8 @@ All the output results will be saved in the folder "output" in the notebook's wo
 We additionally provide notebooks for the training and evaluation of different ResNet models and the training of SwinTransformers.
 
 The evaluation results of all the executed experiments are presented in the folder "evaluation results," it has the following folder structure:
+
+### Evaluation artifacts
 
 - evaluation result
     - EFOMS_(Dataset name)_(Tested OMS detection method)
