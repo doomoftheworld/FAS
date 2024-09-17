@@ -1,0 +1,2 @@
+nb_neurons,nb_important_neurons,sobol_filter_method
+256,87,mean
