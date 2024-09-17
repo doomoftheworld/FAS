@@ -61,9 +61,10 @@ The evaluation results of all the executed experiments are presented in the fold
 The evaluation results addressing our three research questions can be found in the [evaluation](evaluation_results) folder. The results are organized based on the dataset (CIFAR10 or Tiny_Imagenet) and the out-of-model-scope detection approach (CPND or KNN) used.
 
 The evaluation folder follows this structure:
-    - EFOMS_(Dataset name)_(Tested OMS detection method)
-        - (Tested network architecture)
-            - (Folders containing the result figures combining the applications of the EFOMS methodology using Sobol index thresholds)
-            - (Folders containing the csv files and figures for the application of the EFOMS methodology using one specific Sobol index threshold)
-       - (Another tested network architecture)
-            - Same structure as above
+- EFOMS_(Dataset name)_(Tested OMS detection method)
+    - (Tested network architecture)
+        - Folders containing the result figures combining the applications of the EFOMS methodology using Sobol index thresholds
+        - Folders containing the CSV files and figures for the application of the EFOMS methodology using one specific Sobol index threshold
+    - (Another tested network architecture)
+        - Same structure as above
+
