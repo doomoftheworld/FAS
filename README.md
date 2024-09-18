@@ -29,7 +29,7 @@ For the R, you must download the following libraries:
 The required libraries for Python are listed in the file requirements.txt in the folder "code."
 
 ### Training and testing datasets
-It is importnt to dowload the following datasets before initiating the experiments:
+It is important to dowload the following datasets before initiating the experiments:
 - Download the CIFAR-10-C dataset from https://zenodo.org/records/2535967#.XncuG5P7TUJ and extract it in the folder "src".
 - Download the Tiny-Imagenet dataset from http://cs231n.stanford.edu/tiny-imagenet-200.zip and extract it in the folder "src".
 - Download the Tiny-Imagenet-C dataset from https://zenodo.org/records/2536630 and extract it in the folder "src".
