@@ -36,9 +36,9 @@ It is important to dowload the following datasets before initiating the experime
 
 ### Pretrained models
 It is also important to dowload the pretrained models to be able to launch the experiments:
-- Download the "experim_models_resnet.zip," which contains the pre-trained ResNet models from https://zenodo.org/records/13761609, and extract it in the folder "src."
+- Download the "experim_models_resnet.zip," which contains the pre-trained ResNet models from https://zenodo.org/records/15466636, and extract it in the folder "src."
 - Download the "experim_models_swin.zip," which contains the pre-trained SwinTransformer models from https://zenodo.org/records/13761240, and extract it in the folder "src."
-- Download the "experim_resnet_attack.zip," which contains the adversarial attacks for the pre-trained models from https://zenodo.org/records/13761609, and extract it in the folder "src."
+- Download the "experim_resnet_attack.zip," which contains the adversarial attacks for the pre-trained models from https://zenodo.org/records/15466636, and extract it in the folder "src."
 
 Remark: For CIFAR-10-C, you should keep the folder structure with the repeated name after directly unzipping it (i.e., keep the structure as "src\\CIFAR-10-C\\CIFAR-10-C\\...").
 However, for Tiny-Imagenet, Tiny-Imagenet-C, the pre-trained models and their corresponding adversarial attacks, you should guarantee that there are no repeated names (e.g., "src\\experim_models_resnet\\...", "src\\experim_models_swin\\..." and "src\\experim_resnet_attack\\...")
